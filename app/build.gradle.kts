@@ -1,6 +1,5 @@
 plugins {
     alias(libs.plugins.android.application)
-    id("com.google.gms.google-services")
 }
 
 android {
@@ -32,13 +31,6 @@ android {
 }
 
 dependencies {
-
-    // UPDATED Firebase BOM
-    implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
-    implementation("com.google.firebase:firebase-auth")
-    implementation("com.google.firebase:firebase-firestore")
-    implementation("com.google.firebase:firebase-database")
-
     // Picasso
     implementation("com.squareup.picasso:picasso:2.71828")
 
