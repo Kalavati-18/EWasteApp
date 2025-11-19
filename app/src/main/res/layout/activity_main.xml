@@ -34,7 +34,8 @@
                 android:layout_height="48dp"
                 android:src="@android:drawable/ic_menu_myplaces"
                 android:background="@null"
-                app:tint="#ffffff" />
+                app:tint="#ffffff"
+                android:contentDescription="Upload"/>
         </LinearLayout>
 
         <LinearLayout
@@ -49,7 +50,8 @@
                 android:layout_height="48dp"
                 android:src="@android:drawable/ic_menu_help"
                 android:background="@null"
-                app:tint="#ffffff"/>
+                app:tint="#ffffff"
+                android:contentDescription="Upload"/>
         </LinearLayout>
 
         <View
@@ -69,7 +71,8 @@
                 android:layout_height="48dp"
                 android:src="@android:drawable/ic_menu_upload"
                 android:background="@null"
-                app:tint="#ffffff"/>
+                app:tint="#ffffff"
+                android:contentDescription="Upload"/>
         </LinearLayout>
 
         <LinearLayout
@@ -84,7 +87,8 @@
                 android:layout_height="48dp"
                 android:src="@android:drawable/ic_menu_manage"
                 android:background="@null"
-                app:tint="#ffffff"/>
+                app:tint="#ffffff"
+                android:contentDescription="Upload"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -97,6 +101,7 @@
         android:tint="#ffffff"
         android:layout_gravity="bottom|center_horizontal"
         android:layout_marginBottom="44dp"
-        android:backgroundTint="#4CAF50"/>
+        android:backgroundTint="#4CAF50"
+        android:contentDescription="add"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

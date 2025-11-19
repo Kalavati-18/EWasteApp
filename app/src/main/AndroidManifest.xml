@@ -10,9 +10,11 @@
         android:label="E-Waste"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
-            android:name=".ApiHelper"
+            android:name=".AboutActivity"
             android:exported="false" />
-        <!-- Login is the FIRST screen -->
+        <activity
+            android:name=".ApiHelper"
+            android:exported="false" /> <!-- Login is the FIRST screen -->
         <activity
             android:name=".LoginActivity"
             android:exported="true">
